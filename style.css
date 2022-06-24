@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 1100px;
+    height: 800px;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.section {
+    width: 1000px;
+    background-color: #E6E6E6;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: #FC8F8F;
+    display: inline-block;
+    font-size: 64px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-align: center;
+    padding: 60px;
+    color: #ffffff;
+}
+
+.small {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    padding: 30px;
+}
+
+.one {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.two {
+    position: relative;
+    top: 0px;
+    left: 596px;
+}
+
+.fifth {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.fourth {
+    position: absolute;
+    top: 0px;
+    right: 115px;
+}
+
+.third {
+    position: absolute;
+    top: 0px;
+    right: 230px;
+}
+
+.second {
+    position: absolute;
+    top: 0px;
+    right: 345px;
+}
+
+.class1 {
+    float: left;
+    margin: 0 0%;
+}
+
+.class2 {
+    float: left;
+    margin: 0 1.5%;   
+}
+
+.class3 {
+    float: right;
+    margin: 0 1.5%;
+}
+
+.class4 {
+    float: right; 
+    margin: 0 0%;  
+}
